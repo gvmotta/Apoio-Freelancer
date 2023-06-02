@@ -80,21 +80,23 @@ a:focus {
 /**********************************/
 /********** Top Bar CSS ***********/
 /**********************************/
-.mobile-div {
+.d-none1 {
     display: none;
-    background-color: var(--orange-principal);
-    display: flex;
-    justify-content: center;
 }
 
 @media (max-width: 985px) {
-    .mobile-div {
+    .d-none1 {
         display: block;
+        padding: 5px;
     }
 }
-
+@media (max-width: 410px) {
+    .span-numbers  {
+        font-size: 0.9rem;
+    }
+}
 .contact-info-navbar {
-    padding: 5px; 
+    display: block;
 }
 
 .contact-info-navbar span {
@@ -114,6 +116,8 @@ a:focus {
 .fa-whatsapp {
     color: #61ce70;
 }
+
+
 .top-bar {
     position: relative;
     height:85px;
