@@ -120,12 +120,11 @@ a:focus {
 
 .top-bar {
     position: relative;
-    height:85px;
+    height: 90px;
     background: #000;
 }
 
 .top-bar .logo {
-    padding: 7px 0;
     text-align: left;
     overflow: hidden;
 }
@@ -761,7 +760,7 @@ p.aaa{
 }
 
 @media (max-width: 419px) {
-    .fact .fact-text h2 {
+    .fact .fact-text .counter-less {
         font-size: 28px;
     }
 }
@@ -2140,9 +2139,16 @@ p.aaa{
 .footer {
     position: relative;
     margin-top: 25px;
-    padding-top: 45px;
     background: #000;
     color: #fff;
+    
+}
+
+.image-footer {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    background-repeat: no-repeat;
 }
 
 .footer .footer-contact,
